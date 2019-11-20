@@ -143,13 +143,13 @@ h1 {
 	background: #ff6a00;
 	color: white;
 	text-align: center;
-	padding: 20px;
-	margin-top: 30px;
 }
 	#main-footer p {
-		margin: 0;
+	font-family: Times New Roman;
+	color: #333;
 	}
 	
 	#main-footer a {
 		color: white;
 	}
+
