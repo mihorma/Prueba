@@ -16,6 +16,9 @@ h1 {
 
 /*Estilos de la galeria*/
 
+* {
+  background-color:#333;
+}
 
 .galeria1 {
   height: calc( 300px + 3em);
