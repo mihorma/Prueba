@@ -15,7 +15,7 @@ h1 {
 }
 
 /*Estilos de la galeria*/
-}
+
 
 .galeria1 {
   height: calc( 300px + 3em);
@@ -31,6 +31,28 @@ h1 {
   left: 0;
   opacity: 0;
   transition: opacity 3s;
+}
+
+.galeria1 input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: .5em;
+}
+
+.galeria1 input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria1 input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria1 input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria1 input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
 }
 
 .galeria {
